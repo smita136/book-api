@@ -41,11 +41,10 @@ A simple RESTful API for managing books, with authentication, search and paginat
 
 * POST: http://localhost:3000/api/login
 
-{
-
-    "user_email": "test@mailinator.com",
-    "user_password": "Test@123"
-}
+		{
+			"user_email": "test@mailinator.com",
+  			"user_password": "Test@123"
+		}
 
 * GET: http://localhost:3000/api/get-book-list
 * Add authentication token in Authorization section -> Type as Bearer Token
@@ -82,10 +81,10 @@ A simple RESTful API for managing books, with authentication, search and paginat
 		    CONSTRAINT users_pkey PRIMARY KEY (user_id)
 		)
 	
-	TABLESPACE pg_default;
+		TABLESPACE pg_default;
 	
- 	ALTER TABLE IF EXISTS public.users
-	    OWNER to postgres;
+ 		ALTER TABLE IF EXISTS public.users
+	   	 OWNER to postgres;
 
 *
 	  CREATE TABLE IF NOT EXISTS public.user_reviews

@@ -16,10 +16,9 @@ A simple RESTful API for managing books, with authentication, search and paginat
 ** Project Setup
 	1. Clone the Repository
 	## bash
-           * git clone https://github.com/smita136/book-api.git
-	   
-	   * cd book-api
-           * npm install
+    * git clone https://github.com/smita136/book-api.git
+    * cd book-api
+    * npm install
 
 * Create a .env file in the root:
 PORT=3000

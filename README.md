@@ -23,7 +23,7 @@ A simple RESTful API for managing books, with authentication, search and paginat
     * cd book-api
     * npm install
 
-* Create a .env file in the root:
+** Create a .env file in the root:
 
 - PORT=3000
 - JWT_SECRET=express@JKUY_1876362
@@ -33,21 +33,22 @@ A simple RESTful API for managing books, with authentication, search and paginat
 - DB_PASSWORD=your_db_password
 - DB_PORT=5432
 
-* Run command in terminal to start server
+** Run command in terminal to start server
 
-- node index.js
+* node index.js
 
-* Run in Postman
+** Run in Postman
 
-- POST: http://localhost:3000/api/login
+* POST: http://localhost:3000/api/login
 
 {
+
     "user_email": "test@mailinator.com",
     "user_password": "Test@123"
 }
 
-GET: http://localhost:3000/api/get-book-list
-Add authentication token in Authorization section -> Type as Bearer Token
+* GET: http://localhost:3000/api/get-book-list
+* Add authentication token in Authorization section -> Type as Bearer Token
 
 
 ** DATABASE SCRIPTS
